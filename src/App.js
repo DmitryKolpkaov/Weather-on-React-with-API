@@ -36,7 +36,7 @@ function App(){
                   {data.main ? <h1>{data.main.temp}°C</h1> : null}
               </div>
               <div className="description">
-                  {data.weather ? <p>{data.weather[0].main}</p> : null}
+                  {data.weather ? <p>Sky = {data.weather[0].main}</p> : null}
               </div>
           </div>
           {data.main != undefined &&
